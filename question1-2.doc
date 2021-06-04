@@ -1,0 +1,15 @@
+Question 1: Difference between Activity and Fragment
+An activity is a component that provides a user interface for user interaction. While a fragment is a part of an activity. 
+An activity can exist independent of a fragment but a fragment is dependent on an activity
+An Activity has the following life cycle methods: onCreate, onStart, onResume, onPause, onStop, onRestart, and onDestroy. Conversely, a fragment has the following life cycles methods: onAttach, onCreate, onCreateView, onStart, onResume, onDestroy, onDestroyView, etc.
+An activity can contain zero or multiple fragments, while a fragment can be used in multiple activities.
+An activity must be mentioned in the manifest file when created, but fragment does not.
+
+Question2: Life cycle of an activity
+The life cycle of an activity describes the stages an activity goes through between the time it was created and the time it was destroyed. An activity has 7 lifecycles. They are:
+onCreate: This is called when an activity is first created.
+onStart: This is called when an activity is becoming visible to the user.
+onResume: This is called when a user begins interaction with the activity
+onPause: Called when the activity is about to lose focus
+onStop:This is called when the activity has lost focus and is no longer visible to the user.
+onDestroy: This is called before the activity is destroyed.
